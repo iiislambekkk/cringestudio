@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cringe Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/page.css">
+    <link rel="stylesheet" href="styles/components.css">
+
+</head>
+<body>
+
+<header class="header">
+    <div class="header__wrapper">
+        <a href="#">
+            <img height="100"  class="header__logo" src="img/logo.svg" alt="Логотип Cringe Studio">
+        </a>
+
+        <nav>
+            <ul  class="menu">
+                <li class="menu__item menu__item-active"><a href="#">Заказать</a></li>
+                <li class="menu__item"><a href="#">Біз туралы</a></li>
+                <li class="menu__item"><a href="#">Блог</a></li>
+                <li class="menu__item"><a href="#">Портфолио</a></li>
+            </ul>
+        </nav>
+        <a href="#" aria-label="Вход в личный кабинет" class="header__login">
+            <img src="img/user.svg" alt="Иконка пользователя">
+            <div>Вход</div>
+        </a>
+        <button class="header__mobile-menu-btn">
+            <img src="./img/menu.svg" alt="Мобильное меню">
+        </button>
+    </div>
+</header>
+
+<section class="section section-light">
+    <div class="hero">
+        <div class="hero__left">
+            <h1 class="hero__h1">
+                Разработке и DevOps <br /> <span class="hero__h1-gradient">Web Приложении</span>
+            </h1>
+            <div class="hero__cta">
+                <button class="button button-primary">Заказать приложение</button>
+                <button class="button button-ghost">О Студии</button>
+            </div>
+        </div>
+        <img width="548" height="348" class="hero__right" src="img/video.png" alt="Video">
+    </div>
+
+</section>
+
+
+
+<section class="portfolio">
+    <div class="header__wrapper">
+        <h2 class="portfolio__header">Портфолио</h2>
+        <div class="card">
+            <a href="https://react-mern-89f007a06604.herokuapp.com/">
+                <img width="1100" src="img/Mern.png" alt="" style="margin-top: 25px;">
+            </a>
+
+            <p class="text">MERN Технологиялар стэгінде жасалған бұлттық диск.</p>
+        </div>
+
+        <div class="card">
+            <a href="https://iiislambekkk.github.io/test-adaptive/">
+                <img width="1100" src="img/portfolio.png" alt="" style="margin-top: 25px;">
+            </a>
+
+            <p class="text">Егер сізге портфолио керек болса -- жасап беруге дайынбыз</p>
+        </div>
+
+        <div class="card">
+            <a href="https://iiislambekkk.github.io/test/">
+                <img width="1100" src="img/lending.png" alt="" style="margin-top: 25px;">
+            </a>
+
+            <p class="text">Машина лизингін жасайтын компанияның лендингі</p>
+        </div>
+
+        <div class="card">
+            <a href="https://iiislambekkk.github.io/lofthouse/">
+                <img width="1100" src="img/jk.png" alt="" style="margin-top: 25px;">
+            </a>
+
+            <p class="text">ЖК-ны таныстыру лендингі</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="about">
+    <div class="header__wrapper">
+        <h2 class="about__header">Біз туралы</h2>
+        <p class="about_us">
+            Веб-студия штатында 2023 жылдан бастап веб-әзірлеу саласында жұмыс істейтін 4-дeн астам маман бар. Біз кез келген күрделіліктегі сайттар мен интернет-дүкендерді әзірлеуде, Bitrix24 корпоративтік порталдарын енгізуде, сондай-ақ сіздің салаңызды автоматтандыруға арналған күрделі шешімдерде құзыреттілікке ие боламыз.
+            <br><br><br>
+            Сайттарды дамытудың және сүйемелдеудің техникалық жағы деп аталатын бөлімшемен айналысатын фирма <span>Onehost.kz.</span> 24/7 режимінде біз техникалық сұрақтарға жауап береміз және клиенттердің мәселелерін шешеміз.
+        </p>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+    <div class="footer__wrapper">
+
+        <div class="footer__social">
+            <a href="#">
+                <img height="100"  class="header__logo" src="img/logo.svg" alt="Логотип Cringe Studio">
+            </a>
+            <div class="social__icons">
+                <a class="social__icons-icon" href=""><img src="img/social/youtube.svg" alt=""></a>
+                <a class="social__icons-icon" href=""><img src="img/social/telegram.svg" alt=""></a>
+                <a class="social__icons-icon" href=""><img src="img/social/vk.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="footer__menu">
+            <nav>
+                <div class="footer__menu-header">
+                    Меню
+                </div>
+                <ul class="menu-small">
+                    <li class="menu-small__item"><a href="#">Курсы</a></li>
+                    <li class="menu-small__item"><a href="#">Біз туралы</a></li>
+                    <li class="menu-small__item"><a href="#">Блог</a></li>
+                    <li class="menu-small__item"><a href="#">База знаний</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <div class="footer__menu-header">
+                    Документы
+                </div>
+                <ul class="menu-small">
+                    <li class="menu-small__item"><a href="#">Договор Оферта</a></li>
+                    <li class="menu-small__item"><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer__menu-header">
+                    Реквизиты
+                </div>
+                <ul class="menu-small">
+                    <li class="menu-small__item">ИП Газизов Исламбек</li>
+                    <li class="menu-small__item">ИНН 77844958595</li>
+                    <li class="menu-small__item"><a href="mailto:islambekgazizov@gmail.com">islambekgazizov@gmail.com</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer__copyright">Cringe Studio &copy; 1945-2023</div>
+
+    </div>
+</footer>
+
+</body>
+</html>
